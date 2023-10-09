@@ -1,0 +1,37 @@
+
+%center{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+@mixin text_style($f_size,$f_weight){
+    font-size: $f_size;
+    font-weight: $f_weight;
+}
+
+.category{
+    width: 100%;
+    padding: 80px 0;
+    &__title{
+        @include text_style(38px,600 );
+    }
+    &__list{
+        margin-top: 60px;
+        @extend %center;
+       gap: 25px;
+        &-card{
+            width: 242px;
+            background: #2e2e2e;
+            .card-img{
+                background: #2e2e2e;
+                width: 100%;
+            }
+            .card_text{
+                padding: 20px 0 25px 30px;
+                @include  text_style(22px,600 );
+                line-height: 30.8px;
+                background: #363636;
+            }
+        }
+    }
+}

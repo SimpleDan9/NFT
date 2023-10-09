@@ -1,0 +1,25 @@
+.container {
+  width: 1050px;
+  margin: 0 auto;
+}
+
+.setup {
+  padding: 80px 0;
+}
+.setup h2 {
+  font-size: 38px;
+  font-weight: 600;
+}
+.setup p {
+  margin-top: 10px;
+  font-size: 22px;
+  font-weight: 400;
+}
+.setup__cards {
+  margin-top: 48px;
+}
+.setup__cards-item {
+  width: 330px;
+  border-radius: 20px;
+  background: #3B3B3B;
+}/*# sourceMappingURL=setup.css.map */

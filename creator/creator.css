@@ -1,0 +1,75 @@
+.creator__cards .creator_card .card_top, .creator__cards .creator_card {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.creator {
+  padding: 80px 0;
+}
+.creator__nav h2 {
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 45.6px;
+}
+.creator__nav p {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 35.2px;
+  margin-top: 10px;
+}
+.creator__cards {
+  width: 100%;
+  padding-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(4, 230px);
+  gap: 40px;
+}
+.creator__cards .creator_card {
+  border-radius: 20px;
+  background: #3B3B3B;
+  width: 240px;
+  text-align: center;
+  justify-content: center;
+  align-items: baseline;
+  position: relative;
+}
+.creator__cards .creator_card .card_top {
+  background: #3B3B3B;
+  padding: 20px;
+}
+.creator__cards .creator_card .card_top img {
+  background: #3B3B3B;
+}
+.creator__cards .creator_card .card_top .number {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  top: 20px;
+  left: 20px;
+  position: absolute;
+  background: #1f1e1e;
+  font-size: 16px;
+  font-weight: 400;
+}
+.creator__cards .creator_card h4 {
+  margin-top: 20px;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 30.8px;
+  background: #3B3B3B;
+}
+.creator__cards .creator_card p {
+  background: #3B3B3B;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  margin-bottom: 20px;
+}
+.creator__cards .creator_card span {
+  color: #858584;
+  background: #3B3B3B;
+}/*# sourceMappingURL=creator.css.map */

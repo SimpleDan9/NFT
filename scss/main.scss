@@ -1,0 +1,25 @@
+@import "../header/header.css";
+@import "../collection/collection.css";
+@import "../creator/creator.css";
+@import "../category/category.css";
+@import "../discover/discover.css";
+@import "../setup/setup.css";
+@import "../join/join.css";
+@import "../footer/footer.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Work Sans', sans-serif;
+    color:#FFF;
+    background: #2B2B2B;
+}
+.container{
+    width: 1050px;
+    margin: 0 auto;
+}

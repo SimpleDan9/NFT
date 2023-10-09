@@ -1,0 +1,76 @@
+
+%center{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+@mixin text_style($f_size,$f_weight){
+    font-size: $f_size;
+    font-weight: $f_weight;
+}
+.creator{
+    padding: 80px 0;
+    &__nav{
+        h2{
+            @include text_style(38px,600 );
+            line-height: 45.6px;
+        }
+        p{
+            @include text_style(22px,400 );
+            line-height: 35.2px;
+            margin-top: 10px;
+        }
+    }
+    &__cards{
+        width: 100%;
+        padding-top: 60px;
+        display: grid;
+        grid-template-columns: repeat(4, 230px);
+        gap:40px ;
+        .creator_card{
+            border-radius: 20px;
+            background: #3B3B3B;
+            width: 240px;
+            text-align: center;
+            @extend %center;
+            justify-content: center;
+            align-items: baseline;
+            position: relative;
+            .card_top{
+                background: #3B3B3B;
+                @extend %center;
+                padding: 20px;
+                img{
+                    background: #3B3B3B;
+                }
+                .number{
+                    width: 30px;height: 30px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 50%;
+                    top: 20px;left: 20px;
+                    position: absolute;
+                    background:#1f1e1e ;
+                    @include text_style(16px,400 );
+                }
+            }
+            h4{
+                margin-top: 20px;
+                @include text_style(22px,600 );
+                line-height: 30.8px;
+                background: #3B3B3B;
+            }
+            p{
+                background: #3B3B3B;
+               @include text_style(16px,400 );
+               line-height: 22.4px; 
+               margin-bottom: 20px;
+            }
+            span{
+                color: #858584;
+                background: #3B3B3B;
+            }
+        }
+    }
+}

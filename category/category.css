@@ -1,0 +1,33 @@
+.category__list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.category {
+  width: 100%;
+  padding: 80px 0;
+}
+.category__title {
+  font-size: 38px;
+  font-weight: 600;
+}
+.category__list {
+  margin-top: 60px;
+  gap: 25px;
+}
+.category__list-card {
+  width: 242px;
+  background: #2e2e2e;
+}
+.category__list-card .card-img {
+  background: #2e2e2e;
+  width: 100%;
+}
+.category__list-card .card_text {
+  padding: 20px 0 25px 30px;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 30.8px;
+  background: #363636;
+}/*# sourceMappingURL=category.css.map */

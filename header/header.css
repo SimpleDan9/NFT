@@ -1,0 +1,233 @@
+.header__hero-info .ranking, .header__nav-menu, .header__nav {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  width: 1050px;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+}
+.header__nav {
+  padding: 20px 50px;
+  justify-content: space-between;
+}
+.header__nav-bar {
+  display: none;
+}
+.header__nav-menu-item {
+  font-size: 16px;
+  font-weight: 600;
+  margin-left: 30px;
+}
+.header__hero {
+  padding: 80px 115px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.header__hero-info {
+  max-width: 510px;
+}
+.header__hero-info h1 {
+  font-size: 67px;
+  font-weight: 600;
+  line-height: 74px;
+}
+.header__hero-info p {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 36px;
+  margin-top: 20px;
+}
+.header__hero-info .hero_btn {
+  margin-top: 30px;
+}
+.header__hero-info .ranking {
+  margin-top: 30px;
+  gap: 30px;
+}
+.header__hero-info .ranking li h4 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 40px;
+}
+.header__hero-info .ranking li p {
+  margin-top: 0px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 39px;
+}
+.header__hero-image {
+  max-width: 510px;
+  height: 510px;
+  background-color: #3B3B3B;
+  border-radius: 0px 0px 20px 20px;
+}
+.header__hero-image .hero_gallery {
+  padding: 20px;
+  display: inline-block;
+  background-color: #3B3B3B;
+}
+.header__hero-image .hero_gallery h4 {
+  background-color: #3B3B3B;
+}
+.header__hero-image .hero_gallery .artist {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  gap: 12px;
+  background-color: #3B3B3B;
+}
+.header__hero-image .hero_gallery .artist img {
+  background-color: #3B3B3B;
+}
+
+@media (min-width: 990px) and (max-width: 1200px) {
+  .header {
+    width: 100%;
+  }
+  .header__nav {
+    padding: 20px;
+  }
+  .header__hero {
+    width: 100%;
+    padding: 20px 20px;
+  }
+  .header__hero-info h1 {
+    font-size: 38px;
+  }
+  .header__hero-info p {
+    font-size: 16px;
+  }
+  .header__hero-info .ranking li h4 {
+    font-size: 22px;
+  }
+  .header__hero-info .ranking li p {
+    font-size: 16px;
+  }
+  .header__hero-image {
+    width: 330px;
+    height: 350px;
+  }
+  .header__hero-image img {
+    width: 100%;
+  }
+  .header__hero-image .hero_gallery {
+    padding: 20px 0 0 20px;
+    background: none;
+  }
+}
+@media (min-width: 770px) and (max-width: 989px) {
+  .header {
+    width: 100%;
+  }
+  .header__nav-menu {
+    display: none;
+  }
+  .header__nav-bar {
+    display: block;
+  }
+  .header__hero {
+    width: 100%;
+    padding: 20px 20px;
+  }
+  .header__hero-info {
+    max-width: 330px;
+  }
+  .header__hero-info h1 {
+    font-size: 38px;
+  }
+  .header__hero-info p {
+    font-size: 16px;
+  }
+  .header__hero-info .ranking li h4 {
+    font-size: 22px;
+  }
+  .header__hero-info .ranking li p {
+    font-size: 16px;
+  }
+  .header__hero-image {
+    width: 330px;
+    height: 350px;
+  }
+  .header__hero-image img {
+    width: 100%;
+  }
+  .header__hero-image .hero_gallery {
+    padding: 20px 0 0 20px;
+    background: none;
+  }
+}
+@media (min-width: 500px) and (max-width: 769px) {
+  .header {
+    width: 100%;
+  }
+  .header__nav {
+    padding: 20px 80px;
+  }
+  .header__nav-menu {
+    display: none;
+  }
+  .header__nav-bar {
+    display: block;
+  }
+  .header__hero {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+  .header__hero-info {
+    width: 100%;
+  }
+  .header__hero-info h1 {
+    font-size: 45px;
+  }
+  .header__hero-image {
+    max-width: 530px;
+    max-height: 350px;
+  }
+  .header__hero-image img {
+    width: 100%;
+  }
+  .header__hero-image .hero_gallery {
+    background: none;
+  }
+}
+@media (max-width: 499px) {
+  .header {
+    width: 100%;
+  }
+  .header__nav {
+    padding: 20px 80px;
+  }
+  .header__nav-menu {
+    display: none;
+  }
+  .header__nav-bar {
+    display: block;
+  }
+  .header__hero {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+  .header__hero-info h1 {
+    font-size: 45px;
+  }
+  .header__hero-image {
+    max-width: 530px;
+    max-height: 350px;
+  }
+  .header__hero-image img {
+    width: 100%;
+  }
+  .header__hero-image .hero_gallery {
+    background: none;
+  }
+}/*# sourceMappingURL=header.css.map */

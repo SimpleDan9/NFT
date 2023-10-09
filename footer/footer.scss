@@ -1,0 +1,86 @@
+%center{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+@mixin text_style($f_size,$f_weight){
+    font-size: $f_size;
+    font-weight: $f_weight;
+}
+.container{
+    width: 1050px;
+    margin: 0 auto;
+}
+.footer{
+    width: 100%;
+    padding: 40px 0;
+    background:  #3B3B3B;
+    &__top{
+        display: flex;
+        justify-content: space-between;
+        background:  #3B3B3B;
+        &-list{
+            background:  #3B3B3B;;
+            &-item{
+                background:  #3B3B3B;
+                max-width: 240px;
+                margin-bottom: 20px;
+                @include text_style(16px,400 );
+                img{
+                    background: none;
+                }
+            }
+            
+            .footer_logo{
+                @include text_style(22px,700 );
+                line-height: 35.2px;
+                margin-bottom: 30px;
+            }
+        }
+        &-search{
+            width: 420px;
+            background:  #3B3B3B;
+            .title{
+                @include text_style(22px,700 );
+                line-height: 35.2px;
+                margin-bottom: 30px;
+            }
+            &-item{
+                background:  #3B3B3B;
+                max-width: 330px;
+                margin-bottom: 20px;
+                @include text_style(16px,400 );
+                .search{
+                    width: 420px;
+                    height: 60px;
+                    border-radius: 20px;
+                    background: #FFF;
+                   @extend %center;
+                    justify-content: space-between;
+                    input{
+                        width: 209px;
+                        height: 22px;
+                        border: none;
+                        background: #FFF;
+                        margin-left: 20px;
+                    }
+                    img{
+                        background: none;
+                    }
+                }
+            }
+        }
+    }
+    &__bottom{
+        background:  #3B3B3B;
+        .line{
+            width: 100%;
+            background: #858584;
+            height: 1px;
+        }
+        p{
+            background: none;
+            margin-top: 20px;
+        }
+    }
+}

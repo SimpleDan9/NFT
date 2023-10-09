@@ -1,0 +1,97 @@
+.discover__cards .card_info .card_name {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.discover {
+  padding: 80px 0;
+}
+.discover__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.discover__nav-title h2 {
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 45.6px;
+}
+.discover__nav-title p {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 35.2px;
+  margin-top: 10px;
+}
+.discover__cards {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.discover__cards .card {
+  width: 330px;
+  height: 475px;
+  border-radius: 20px;
+  background: #3B3B3B;
+}
+.discover__cards img {
+  width: 100%;
+  height: 296px;
+}
+.discover__cards .card_info {
+  background: #3B3B3B;
+  padding: 20px 30px 25px 30px;
+}
+.discover__cards .card_info h4 {
+  background: #3B3B3B;
+  font-size: 22px;
+  font-weight: 600;
+}
+.discover__cards .card_info .card_name {
+  background: #3B3B3B;
+  gap: 12px;
+}
+.discover__cards .card_info .card_name img {
+  width: 24px;
+  height: 24px;
+}
+.discover__cards .card_info .statistics {
+  margin-top: 25px;
+  background: #3B3B3B;
+  display: flex;
+  justify-content: space-between;
+}
+.discover__cards .card_info .statistics .statistics_left {
+  background: #3B3B3B;
+}
+.discover__cards .card_info .statistics .statistics_left span {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 13.2px;
+  color: #858584;
+  background: #3B3B3B;
+}
+.discover__cards .card_info .statistics .statistics_left p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  margin-top: 8px;
+  background: #3B3B3B;
+}
+.discover__cards .card_info .statistics .statistics_right {
+  background: #3B3B3B;
+}
+.discover__cards .card_info .statistics .statistics_right span {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 13.2px;
+  color: #858584;
+  background: #3B3B3B;
+}
+.discover__cards .card_info .statistics .statistics_right p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  margin-top: 8px;
+  background: #3B3B3B;
+}/*# sourceMappingURL=discover.css.map */

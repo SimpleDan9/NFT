@@ -1,0 +1,59 @@
+.collection__list-item .collection_icon, .collection__list-item .bottom_images {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.collection {
+  width: 100%;
+  padding: 80px 115px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.collection__nav h2 {
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 46px;
+}
+.collection__nav p {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 35px;
+  margin-top: 10px;
+}
+.collection__list {
+  padding-top: 60px;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.collection__list-item {
+  width: 330px;
+}
+.collection__list-item .bottom_images {
+  margin-top: 15px;
+  gap: 14px;
+}
+.collection__list-item h5 {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 30px;
+  margin-top: 15px;
+}
+.collection__list-item .collection_icon {
+  margin-top: 10px;
+  gap: 12px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+@media (min-width: 990px) and (max-width: 1200px) {
+  .collection {
+    text-align: center;
+  }
+  .collection__list {
+    padding: 60px 0;
+  }
+}/*# sourceMappingURL=collection.css.map */

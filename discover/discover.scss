@@ -1,0 +1,97 @@
+
+%center{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+@mixin text_style($f_size,$f_weight){
+    font-size: $f_size;
+    font-weight: $f_weight;
+}
+
+.discover{
+    padding:80px 0 ;
+    &__nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &-title{
+            h2{
+                @include text_style(38px,600 );
+                line-height: 45.6px;
+            }
+            p{
+                @include text_style(22px,400 );
+                line-height: 35.2px;
+                margin-top: 10px;
+            }
+        }
+    }
+    &__cards{
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-between;
+        .card{
+            width: 330px;
+            height: 475px;
+            border-radius: 20px;
+            background: #3B3B3B;
+        }
+        img{
+            width: 100%;
+            height: 296px;
+        }
+        .card_info{
+            background: #3B3B3B;
+            padding: 20px 30px 25px 30px;
+            h4{
+                background: #3B3B3B;
+                @include text_style(22px,600 );
+            }
+            .card_name{
+                @extend %center;
+                background: #3B3B3B;
+                gap: 12px;
+                img{
+                    width: 24px;height: 24px;
+                }
+            }
+            .statistics{
+                margin-top: 25px;
+                background: #3B3B3B;
+                display: flex;
+                justify-content: space-between;
+                .statistics_left{
+                    background: #3B3B3B;
+                    span{
+                        @include text_style(12px,400 );
+                        line-height: 13.2px;
+                        color: #858584;
+                        background: #3B3B3B;
+                    }
+                    p{
+                        @include text_style(16px,400 );
+                        line-height: 22.4px;
+                        margin-top: 8px;
+                        background: #3B3B3B;
+                    }
+                }
+                .statistics_right{
+                    background: #3B3B3B;
+                    span{
+                        @include text_style(12px,400 );
+                        line-height: 13.2px;
+                        color: #858584;
+                        background: #3B3B3B;
+                    }
+                    p{
+                        @include text_style(16px,400 );
+                        line-height: 22.4px;
+                        margin-top: 8px;
+                        background: #3B3B3B;
+                    }
+                }
+            }
+        }
+    }
+}
